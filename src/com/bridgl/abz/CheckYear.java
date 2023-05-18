@@ -8,7 +8,7 @@ public class CheckYear {
         Scanner sc=new Scanner (System.in);
         System.out.println ("Enetr Year");
         int year=sc.nextInt ();
-        if (year%4==0){
+        if (year%4==0 && year%100!=.0){
             System.out.println (year+" Is Leap Year");
         }
         else {
